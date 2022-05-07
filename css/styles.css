@@ -89,7 +89,8 @@ body {
 
 .site-nav a {
   text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav-activ {
@@ -116,7 +117,8 @@ body {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
   position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav a:hover,
@@ -167,7 +169,8 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icon {
@@ -236,7 +239,8 @@ body {
 }
 
 .container > .button-heading-activ {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container > .button-heading-activ:hover,
@@ -429,7 +433,8 @@ body {
   padding: 0;
   background-color: #ffffff;
   fill: var(--color-icons);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-list:not(:last-child) {
@@ -464,7 +469,8 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   fill: var(--color-icons);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list .user-icon {
@@ -518,7 +524,8 @@ body {
 .footer-list-address {
   color: var(--color-footer-contacts);
   text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list-address:hover,
@@ -559,7 +566,8 @@ body {
   padding: 0;
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--color-text-reserve);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-box .box-list:not(:last-child) {
@@ -596,7 +604,8 @@ body {
   width: 358px;
   padding-left: 16px;
   background-color: #2f303a;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-input:valid {
@@ -610,7 +619,6 @@ body {
 .footer-form-input:focus {
   border-color: var(--activ-color);
 }
-
 
 .footer-mail {
   margin-top: 12px;
@@ -636,7 +644,8 @@ body {
   background-color: #2196f3;
   border-color: var(--activ-color);
   letter-spacing: 0.06em;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-mail:hover,
@@ -708,7 +717,8 @@ body {
   border: none;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-current:hover,
@@ -731,7 +741,8 @@ body {
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .user-portfolio-element:hover .user-portfolio-text {
@@ -841,7 +852,8 @@ body {
   right: 8px;
   padding: 0;
   text-align: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
@@ -868,7 +880,7 @@ body {
   left: 40px;
   margin: 0 0 12px 0;
   padding: 0;
-  }
+}
 
 .modal-label {
   display: flex;
@@ -898,7 +910,8 @@ body {
   border-radius: 4px;
   padding-left: 42px;
   outline: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-icon {
@@ -906,21 +919,22 @@ body {
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
   border-color: var(--activ-color);
 }
 
-.modal-input:focus + .modal-input-icon  {
+.modal-input:focus + .modal-input-icon {
   fill: var(--activ-color);
 }
 
 .modal-text {
+  position: relative;
+  margin: 0 40px 10px 40px;
   display: flex;
-  position: absolute;
-  margin: 0;
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -932,7 +946,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text::placeholder {
@@ -943,5 +958,91 @@ body {
 }
 
 .modal-text:focus {
+  border-color: var(--activ-color);
+}
+
+.modal-field-div {
+  position: relative;
+  margin: 20px 40px 30px 40px;
+}
+
+.chek-text {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.chek-text-link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--activ-color);
+  text-decoration-line: underline;
+  margin-left: 4px;
+}
+
+.chek-text::before {
+  content: "";
+  width: 16px;
+  height: 15px;
+  margin-right: 7px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+}
+
+.input-chek:checked + .chek-text::before {
+  border: 0.2px solid #ffffff;
+  background-image: url(../img/check-modal.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vis-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.button-chek {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--activ-color);
+  border-radius: 4px;
+  margin-left: 165px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  font-family: inherit;
+  color: var(--color-text-reserve);
+  background-color: #2196f3;
+  border-color: var(--activ-color);
+  letter-spacing: 0.06em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-chek:hover,
+.button-chek:focus {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   border-color: var(--activ-color);
 }
